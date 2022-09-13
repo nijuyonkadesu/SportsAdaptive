@@ -21,12 +21,12 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.android.sports"
-        minSdk 21
-        targetSdk 31
+        minSdk 30
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -58,8 +58,8 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.1'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.5.1'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.2'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.2'
     implementation 'androidx.leanback:leanback:1.0.0'
     implementation "androidx.slidingpanelayout:slidingpanelayout:1.2.0"
     // Coil
